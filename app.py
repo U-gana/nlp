@@ -9,7 +9,7 @@ class TextInput(BaseModel):
 # Initialize FastAPI app
 app = FastAPI()
 
-# Load the model at startup
+# Load the model at startup 
 model = None
 
 @app.on_event("startup")
